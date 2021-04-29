@@ -74,7 +74,7 @@ See the classroom instruction and code comments for more details on each of thes
 
 
 	* MP.7 Performance Evaluation 3
-      Log the time it takes for keypoint detection and descriptor extraction. The results must be entered into a spreadsheet and based on this data, the TOP3 detector / descriptor combinations must be recommended as the best choice for our purpose of detecting keypoints on vehicles.
+      Log the time it takes for keypoint detection and descriptor extraction in milli seconds. The TOP3 detector / descriptor combinations must be recommended as the best choice for our purpose of detecting keypoints on vehicles.
 
       Some combinations of detector and descriptor doesn't make sense, those results are N/A.
       | Detector/Descriptor    | BRISK | BRIEF | ORB | FREAK |AKAZE | SIFT |
