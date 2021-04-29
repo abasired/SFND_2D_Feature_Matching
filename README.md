@@ -48,7 +48,7 @@ See the classroom instruction and code comments for more details on each of thes
     Count the number of keypoints on the preceding vehicle for all 10 images and take note of the distribution of their neighborhood size. Do this for all the detectors you have implemented.
 
     | Detector    | image0 | image1 | image2 | image3 |image4 | image5 |image6 | image7 | image8 | image9 | Neighborhood size
-    | :---        |    :----:   |          ---: |
+     | :---       |:----: |:----: |:----: |:----: |:----: |:----: | :----: |:----: |:----: |:----: |:----: |      
     | SHI-TOMASI  | 125 | 118 | 123 | 120 | 120 | 113 | 114 | 123 | 111 | 112 | 4
     | HARRIS      | 17	| 14  | 18	| 21  | 26	| 43  |	18	| 30  |	26	| 34  | 6
     | FAST        | 149 | 152 | 150 | 155 | 149 | 149 | 156 | 150 | 138 | 143 | 7
@@ -63,7 +63,7 @@ See the classroom instruction and code comments for more details on each of thes
       Some combinations of detector and descriptor doesn't make sense, those results are N/A.
 
       | Detector/Descriptor    | BRISK | BRIEF | ORB | FREAK |AKAZE | SIFT |
-      | :---        			 |    :----:   |          ---: |
+      | :---        		   |:----: |:----: |:----: |:----: |:----: |:----: |     
       | SHI-TOMASI             | 767 | 934 | 906 | 761 | NA |926 |
       | HARRIS                 | 142 | 173 | 162 | 144 | NA |163 | 
       | FAST                   | 2182| 2831| 2768| 1982| NA |947 | 
@@ -78,7 +78,7 @@ See the classroom instruction and code comments for more details on each of thes
 
       Some combinations of detector and descriptor doesn't make sense, those results are N/A.
       | Detector/Descriptor    | BRISK | BRIEF | ORB | FREAK |AKAZE | SIFT |
-      | :---        			 |    :----:   |          ---: |
+      | :---        		   |:----: |:----: |:----: |:----: |:----: |:----: |          
       | SHI-TOMASI             | 20.43 | 19.84 | 19.64 | 55.41 |NA | 31.48 | 
       | HARRIS                 | 19.35 | 21.32 | 21.67 | 56.38 |NA | 46.78 | 
       | FAST                   |   7.1 |  4.18 | 3.96	| 53.67 | NA | 38.56 | 
